@@ -1,32 +1,40 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+Makefile
+Makefile.in
+aclocal.m4
+autom4te.cache
+compile
+config.guess
+config.h
+config-auto.h
+config.h.in
+config.log
+config.sub
+config.status
+configure
+depcomp
+install-sh
+libtool
+ltmain.sh
+missing
+mkinstalldirs
+stamp-h1
+test-driver
+*.pc
+*.rc
+*~
+.deps
+*.spec
 *.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
 *.la
-*.a
-*.lib
+.libs
+*.lo
+*.log
+*.tar.*
+*.trs
+_configs.sed
 
-# Executables
-*.exe
-*.out
-*.app
+examples/cppunittest/cppunittestmain
+examples/hierarchy/hierarchy
+examples/money/MoneyApp
+src/DllPlugInTester/DllPlugInTesterTest
+build/
